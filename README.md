@@ -1,34 +1,34 @@
-# ThreatDetectAI
-Cybersecurity anomaly detection project using PyTorch, PySpark, and MLflow
+# ThreatDetectAI – Cybersecurity Anomaly Detection
 
+## 📊 Overview
+ThreatDetectAI identifies unusual network activity and user behavior anomalies using machine learning.  
+The project helps security teams detect threats early and visualize anomalies for actionable insights.
 
-# ThreatDetectAI
+## 🎯 Business Problem
+Organizations face increasing cyber threats. Proactive detection of anomalies reduces response times and prevents financial and reputational loss.
 
-**Cybersecurity Threat Detection using Machine Learning**
+## 🧠 Key Insights
+- Detected abnormal login and network activity patterns  
+- Visualized anomalies and severity scores to prioritize investigations  
+- Demonstrated model tracking using MLflow to compare performance across experiments  
 
-This project demonstrates a beginner-friendly end-to-end pipeline for detecting anomalies in cybersecurity logs using Python. It showcases data simulation, exploratory data analysis (EDA), anomaly detection with Isolation Forest, and visualization of potential threats.
+## 🧰 Tools & Technologies
+Python | PyTorch | PySpark | MLflow | Pandas | Matplotlib
 
----
+## 📈 Dashboard Snapshot
+![ThreatDetectAI Dashboard](images/threatdetectai_dashboard.png)
+*Figure 1: Visualization of detected anomalies and severity scoring.*
 
-## Features
+## 🚀 How to Run
+1. Clone the repository  
+2. Set up Spark and install dependencies  
+3. Run scripts in `/notebooks` to generate anomaly detection outputs  
 
-- Simulated cybersecurity log dataset including login attempts, failed logins, session duration, and data transferred.
-- Exploratory Data Analysis (EDA) with summary statistics and correlation heatmaps.
-- Anomaly detection using **Isolation Forest** to flag suspicious activity.
-- Visualizations highlighting anomalies.
-- Saves processed results for further analysis.
+## 📂 Folder Structure
+- `data` → Network logs and event samples  
+- `models` → Trained anomaly detection models  
+- `notebooks` → Analysis and visualization notebooks  
+- `reports` → MLflow logs and model performance reports  
 
----
-
-## Technologies Used
-
-- **Python:** Pandas, NumPy, Matplotlib, Seaborn  
-- **Machine Learning:** scikit-learn (Isolation Forest, StandardScaler)  
-- **Jupyter Notebook** for interactive exploration  
-- **Version Control:** Git & GitHub  
-
----
-
-## Project Structure
-
-
+## 💡 Skills Demonstrated
+Anomaly Detection • Machine Learning • Distributed Data Processing • Model Tracking • Business Insights
